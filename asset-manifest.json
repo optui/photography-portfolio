@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/optui/photography-portfolio/static/css/main.5ce1cf42.css",
+    "main.js": "/optui/photography-portfolio/static/js/main.e8a470d9.js",
+    "index.html": "/optui/photography-portfolio/index.html",
+    "main.5ce1cf42.css.map": "/optui/photography-portfolio/static/css/main.5ce1cf42.css.map",
+    "main.e8a470d9.js.map": "/optui/photography-portfolio/static/js/main.e8a470d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ce1cf42.css",
+    "static/js/main.e8a470d9.js"
+  ]
+}
