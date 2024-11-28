@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/photography-portfolio/static/css/main.5ce1cf42.css",
-    "main.js": "/photography-portfolio/static/js/main.bf89d35b.js",
+    "main.css": "/photography-portfolio/static/css/main.bfc08ed3.css",
+    "main.js": "/photography-portfolio/static/js/main.e29d9b9a.js",
     "index.html": "/photography-portfolio/index.html",
-    "main.5ce1cf42.css.map": "/photography-portfolio/static/css/main.5ce1cf42.css.map",
-    "main.bf89d35b.js.map": "/photography-portfolio/static/js/main.bf89d35b.js.map"
+    "main.bfc08ed3.css.map": "/photography-portfolio/static/css/main.bfc08ed3.css.map",
+    "main.e29d9b9a.js.map": "/photography-portfolio/static/js/main.e29d9b9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ce1cf42.css",
-    "static/js/main.bf89d35b.js"
+    "static/css/main.bfc08ed3.css",
+    "static/js/main.e29d9b9a.js"
   ]
 }
