@@ -1,5 +1,4 @@
 import React from 'react';
-import './Gallery.css';
 
 function Gallery() {
   const images = [
@@ -12,12 +11,16 @@ function Gallery() {
   ];
 
   return (
-    <div className="gallery-page">
-      <h1>Gallery</h1>
-      <div className="gallery-grid">
+    <div className="p-8">
+      <h1 className="text-center mb-8 text-3xl font-bold text-primary">Gallery</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4">
         {images.map((image) => (
-          <div key={image.id} className="gallery-item">
-            <img src={image.src} alt={image.alt} />
+          <div key={image.id} className="transform transition-transform duration-300 hover:scale-105">
+            <img 
+              src={image.src} 
+              alt={image.alt} 
+              className="w-full h-48 object-cover rounded-lg shadow-md"
+            />
           </div>
         ))}
       </div>

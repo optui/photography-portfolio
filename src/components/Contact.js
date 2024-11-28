@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Contact.css';
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -22,19 +21,19 @@ function Contact() {
   };
 
   return (
-    <div className="contact-page">
-      <h1>Contact Us</h1>
-      <div className="contact-container">
-        <div className="contact-info">
-          <h2>Get in Touch</h2>
-          <p>Have questions? We'd love to hear from you.</p>
-          <div className="contact-details">
-            <p><strong>Email:</strong> example@email.com</p>
-            <p><strong>Phone:</strong> (123) 456-7890</p>
-            <p><strong>Address:</strong> 123 Main Street, City, Country</p>
+    <div className="p-8 max-w-6xl mx-auto">
+      <h1 className="text-center mb-8 text-3xl font-bold text-primary">Contact Us</h1>
+      <div className="flex flex-col md:flex-row gap-8">
+        <div className="flex-1 bg-darker p-8 rounded-lg shadow-lg">
+          <h2 className="text-2xl font-bold text-primary mb-4">Get in Touch</h2>
+          <p className="mb-6">Have questions? We'd love to hear from you.</p>
+          <div className="space-y-2">
+            <p><span className="font-bold">Email:</span> example@email.com</p>
+            <p><span className="font-bold">Phone:</span> (123) 456-7890</p>
+            <p><span className="font-bold">Address:</span> 123 Main Street, City, Country</p>
           </div>
         </div>
-        <form className="contact-form" onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="flex-[2] bg-darker p-8 rounded-lg shadow-lg space-y-6">
           <div className="form-group">
             <label htmlFor="name">Name</label>
             <input
@@ -44,6 +43,7 @@ function Contact() {
               value={formData.name}
               onChange={handleChange}
               required
+              className="w-full p-2 border border-gray-300 rounded-md"
             />
           </div>
           <div className="form-group">
@@ -55,6 +55,7 @@ function Contact() {
               value={formData.email}
               onChange={handleChange}
               required
+              className="w-full p-2 border border-gray-300 rounded-md"
             />
           </div>
           <div className="form-group">
@@ -65,9 +66,10 @@ function Contact() {
               value={formData.message}
               onChange={handleChange}
               required
+              className="w-full p-2 border border-gray-300 rounded-md"
             />
           </div>
-          <button type="submit">Send Message</button>
+          <button type="submit" className="w-full p-2 bg-primary text-white rounded-md">Send Message</button>
         </form>
       </div>
     </div>
