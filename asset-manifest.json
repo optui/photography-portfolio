@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/optui/photography-portfolio/static/css/main.5ce1cf42.css",
-    "main.js": "/optui/photography-portfolio/static/js/main.b5e24a86.js",
-    "index.html": "/optui/photography-portfolio/index.html",
-    "main.5ce1cf42.css.map": "/optui/photography-portfolio/static/css/main.5ce1cf42.css.map",
-    "main.b5e24a86.js.map": "/optui/photography-portfolio/static/js/main.b5e24a86.js.map"
+    "main.css": "/photography-portfolio/static/css/main.5ce1cf42.css",
+    "main.js": "/photography-portfolio/static/js/main.bf89d35b.js",
+    "index.html": "/photography-portfolio/index.html",
+    "main.5ce1cf42.css.map": "/photography-portfolio/static/css/main.5ce1cf42.css.map",
+    "main.bf89d35b.js.map": "/photography-portfolio/static/js/main.bf89d35b.js.map"
   },
   "entrypoints": [
     "static/css/main.5ce1cf42.css",
-    "static/js/main.b5e24a86.js"
+    "static/js/main.bf89d35b.js"
   ]
 }
