@@ -5,6 +5,9 @@
 @layer base {
   html, body {
     @apply h-full m-0 bg-dark text-white font-sans antialiased;
+    margin: 0;
+    padding: 0;
+    height: 100%;
   }
 }
 
